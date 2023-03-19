@@ -194,24 +194,31 @@ a {
   letter-spacing: 0.02em;
   color: var(--third-color);
 }
-
+.footer .web {
+  color: #f4f4fd;
+}
 /* ----------------------PORTFOLIO */
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.5;
-
+  font-size: 16px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: var(--third-color);
+  cursor: pointer;
 }
 .filter-btn:hover {
   color: var(--primary-white-color);
   background-color: #404bbf;
   cursor: pointer;
+}
+.filter-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .services-link .list-title {
   font-family: inherit;
