@@ -46,7 +46,7 @@ a {
   text-transform: uppercase;
 }
 .web {
-  color: var(--web-color);
+  color: var(--second-text-color);
 
   font-family: 'Raleway';
   font-style: normal;
@@ -56,6 +56,9 @@ a {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.list {
+  list-style: none;
 }
 .header-list {
 }
@@ -227,4 +230,13 @@ a {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--web-color);
+}
+.link {
+  text-decoration: none;
+}
+.web {
 }
