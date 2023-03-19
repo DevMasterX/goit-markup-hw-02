@@ -7,17 +7,18 @@
   /* второстепенный цвет 3 cloud*/
   --third-color: #f4f4fd;
 
-  --logo-font: Raleway;
+  --logo-font: R 'Raleway', sans-serif;
   /* slate */
   --primary-text-color: #434455;
   /* navy-blue */
   --second-text-color: #2e2f42;
   /* slate */
   --primary-heading-color: #2e2f42;
+  --web-color: #4d5ae5;
 }
 
 body {
-  font-family: 'Roboto', sana-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
@@ -35,7 +36,7 @@ a {
 .header-logo {
   color: var(--second-text-color);
 
-  font-family: 'Raleway';
+  font-family: var(--logo-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -45,7 +46,7 @@ a {
   text-transform: uppercase;
 }
 .web {
-  color: #4d5ae5;
+  color: var(--web-color);
 
   font-family: 'Raleway';
   font-style: normal;
@@ -171,7 +172,7 @@ a {
   background-color: var(--second-color);
 }
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: var(--logo-font);
 
   font-weight: 800;
   font-size: 18px;
