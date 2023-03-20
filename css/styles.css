@@ -7,7 +7,7 @@
   /* второстепенный цвет 3 cloud*/
   --third-color: #f4f4fd;
 
-  --logo-font: R 'Raleway', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
   /* slate */
   --primary-text-color: #434455;
   /* navy-blue */
@@ -81,7 +81,7 @@ a {
 .header-link {
   text-decoration: none;
   color: var(--second-text-color);
-  font-family: Rinherit;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -200,9 +200,6 @@ a {
   color: var(--second-text-color);
   text-align: center;
 }
-.list-title {
-  line-height: 1.2;
-}
 
 .team-item .list-text {
   line-height: 1.5;
@@ -210,6 +207,10 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.list-title {
+  line-height: 1.2;
+}
+
 /* ----------------------FOOTER */
 .footer {
   background-color: var(--second-color);
