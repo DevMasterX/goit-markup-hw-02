@@ -60,6 +60,17 @@ a {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: color: #404bbf;
+}
+.link:focus {
+color: #404bbf;
+}
+
+
 .header-list {
 }
 .header-item {
@@ -75,7 +86,16 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-link:hover {
+  color: color: #404bbf;
+}
+.header-link:focus {
+color: #404bbf;
+}
+
+
 .address {
+  font-style: normal;
 }
 .address-list {
 }
@@ -194,7 +214,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--third-color);
 }
-.footer .web {
+.footer-web {
   color: #f4f4fd;
 }
 /* ----------------------PORTFOLIO */
