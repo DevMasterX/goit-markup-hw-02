@@ -45,6 +45,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .web {
   color: var(--second-text-color);
 
@@ -56,6 +57,9 @@ a {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.header-logo {
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -175,21 +179,27 @@ a {
 .team {
   background-color: var(--third-color);
 }
-
+.section-heading {
+  color: var(--second-text-color);
+}
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-item .list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2px;
-
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   text-align: center;
 }
+.list-title {
+  line-height: 1.2;
+}
+
 .team-item .list-text {
   line-height: 1.5;
 
@@ -262,6 +272,11 @@ a {
 
   letter-spacing: 0.02em;
 
+  color: var(--primary-text-color);
+}
+.services-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 .logo {
