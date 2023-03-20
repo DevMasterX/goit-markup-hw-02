@@ -101,6 +101,11 @@ a {
 }
 .address-list {
 }
+.address-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
 .address-item {
 }
 .address-mail,
@@ -162,10 +167,9 @@ a {
 .list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+  line-height: 1.2;
 }
 .list-text {
   line-height: 1.5;
