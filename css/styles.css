@@ -207,10 +207,10 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.list-title {
+
+.team-item .list-title {
   line-height: 1.2;
 }
-
 /* ----------------------FOOTER */
 .footer {
   background-color: var(--second-color);
